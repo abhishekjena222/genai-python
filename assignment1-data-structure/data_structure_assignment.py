@@ -50,12 +50,54 @@ def task2():
     print(" total unique categories: ",len(categories_set))  
 
 
+# Product Pricing -- (Dictionaries)
+def task3():
+    print("\n --- task 3 : Dictionaries ---")
+
+    #1 dictionary of product and price
+    price_dict = {
+        "Laptop":80000,
+        "mouse":1200,
+        "keyboard":8000,
+        "printer":18000,
+        "phone":30000,
+        "tablet":24000
+    }
+
+    #2 add a product, 
+    price_dict["camera"] = 22000
+    price_dict["moniter"] = 10000
+
+    #update the price of existing,
+    price_dict["Laptop"] = 75000
+
+    #remove a product by name
+    product_to_remove = "camera"
+    if product_to_remove in price_dict:
+        del price_dict[product_to_remove]
+        print(f"product {product_to_remove} removed from dictionary")
+    else:
+        print(f"product {product_to_remove} not found in dictionary")
+
+    #3 print average price of all product
+    avg_price = sum(price_dict.values()) / len(price_dict)
+    print("the average price of products is :",avg_price)
+
+    #extra product with max and min price
+    max_prd = max(price_dict, key=price_dict.get)
+    min_prd = min(price_dict, key=price_dict.get)
+
+    print("Most expensive product : ",max_prd)
+    print("Most expensive product : ",min_prd)
+
+
 
 
 
 def main():
     # task1()
-    task2()
+    # task2()
+    task3()
 
 if __name__ == "__main__":
     main()
