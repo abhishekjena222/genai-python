@@ -4,3 +4,4 @@
 ### task 1 - Product Collection (List and Tuple)
 ### task 2 - Categories -- (Sets)
 ### task 3 - Product Pricing -- (Dictionaries)
+### task 4 - Combined Operation

@@ -18,3 +18,9 @@
 ### 2 add a product, update the price of existing, remove a product by name
 ### 3 print average price of all product
 ### extra product with moth max and min price
+
+## task 4 - Combined Operation
+### 1 list of tuple named catalog
+### 2 create a new dictionary that map each cagegory
+### 3 print category with max product
+

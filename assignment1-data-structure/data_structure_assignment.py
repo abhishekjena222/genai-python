@@ -91,13 +91,51 @@ def task3():
     print("Most expensive product : ",min_prd)
 
 
+# Combined Operation
+def task4():
+    print("\n --- task 4 : Combined Operation ---")
+
+    #1 list of tuple named catalog
+    catalog = [
+        ("Laptop",75000,"Electronics"),
+        ("Mouse", 500, "Accessories"),
+        ("Keyboard", 1500, "Accessories"),
+        ("Printer", 15000, "Accessories"),
+        ("Monitor", 12000, "Electronics"),
+        ("Chair", 7000, "Furniture"),
+        ("Desk", 10000, "Furniture")
+    ]
+
+    #2 create a new dictionary that map each cagegory
+    catalog_to_products = {}
+
+    for product,price,category in catalog:
+        if category not in catalog_to_products:
+            catalog_to_products[category] = []
+
+        catalog_to_products[category].append(product)
+
+    print("Category to product: ",catalog_to_products)
+
+
+    #3 print category with max product
+    max_products = max(catalog_to_products, key=lambda x : len(catalog_to_products[x]))
+    print("Category with max products: ",max_products)
+
+    print("Products in the catagory ",max_products)
+    for product in catalog_to_products[max_products]:
+        print(product)
+
+
+
 
 
 
 def main():
-    # task1()
-    # task2()
+    task1()
+    task2()
     task3()
+    task4()
 
 if __name__ == "__main__":
     main()
