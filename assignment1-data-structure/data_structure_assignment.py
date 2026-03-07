@@ -28,10 +28,34 @@ def task1():
     print("updated sample_product: ",sample_product)
 
 
+# Categories -- (Sets)
+def task2():
+    print("\n --- task 2 : Sets ---")
+
+    #1 set of categories
+    categories = ["Electronics", "Accessories", "Accessories", "Electronics", "Office"]
+    categories_set = set(categories)
+
+    #2 adding a new category to the set and duplicates are ignored
+    categories_set.add("gaming")
+    categories_set.add("gaming") # duplicate 
+
+    #3 check category exists in the set
+    if 'gaming' in categories_set:
+        print("gaming category exist in the set")
+    else:
+        print("gaming category dosen't exist in the set")
+    
+    #extra total number of unique category in set
+    print(" total unique categories: ",len(categories_set))  
+
+
+
 
 
 def main():
-    task1()
+    # task1()
+    task2()
 
 if __name__ == "__main__":
     main()
