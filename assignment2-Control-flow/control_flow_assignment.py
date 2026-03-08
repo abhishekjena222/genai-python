@@ -73,10 +73,55 @@ def task2():
     print("Total orders with discount is : ",order_with_discount)
 
 
+# task 3 : User Menu (while loop  - break/continue)
+def task3():
+    print("\n -- task 3 : User Menu (while loop  - break/continue) --")
+
+    # 1 while loop with option 1,2,q ; 1: add amount to a running list, 2: show amount and discount aount, q: quit
+    # 2 continue the loop on invalid input, break or exit at q
+    orders = []
+    print("Menu: \nEnter 1 to add amount \nEnter 2 to show the table \nEnter q to exit")
+
+
+    while True:
+        option = input("enter your preference: ")
+        if (option == 'q'):
+            break
+        elif (option == '1'):
+            try:
+                input_amount = int(input("Enter the amount: "))
+            except ValueError:
+                print("Invalid Input")
+                continue
+
+            orders.append(input_amount)
+            print("Orders : ",orders)
+        elif (option == '2'):
+            for order_amount in orders:
+                if order_amount >= 2000:
+                    discount = 0.15
+                elif order_amount >= 1500:
+                    discount = 0.10
+                elif order_amount >= 1000:
+                    discount =  0.07
+                else:
+                    discount = 0
+                print(f"Amount: {order_amount} | Total with discount : {order_amount * (1 - discount)}")
+        else:
+            print("Invalid preference")
+            continue
+
+
+
+
+
+
+
 def main():
     assignment()
     # task1()
-    task2()
+    # task2()
+    task3()
 
 
 if __name__ == "__main__": main()
