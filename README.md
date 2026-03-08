@@ -10,3 +10,4 @@
 ### task 1 - Discount Rules (if/elif/else)
 ### task 2 - Process Multiple order (for loop) 
 ### task 3 - User Menu (while loop  - break/continue)
+### task 5 : Loop control with conditions (break and continue)

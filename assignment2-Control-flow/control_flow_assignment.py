@@ -112,6 +112,28 @@ def task3():
             continue
 
 
+# tasl 5 : Loop control with conditions (break and continue)
+def task5():
+    print("\n -- tasl 5 : Loop control with conditions (break and continue) -- ")
+
+    # 1 iterate list of sales, if the value is -1 the return corrupt data and break, is 0 then consder as a day with 0 sales, print the total sales
+    # 2 print the total sales if data not corrupted
+
+    sales = [200, 150, 0, 400, 50, -1, 300]
+    total_sales = 0
+
+    for sale in sales:
+        if sale == -1:
+            print("-- Data corrupted --")
+            break
+
+        if sale == 0:
+            continue
+
+        total_sales += sale
+        print("total sales: ",total_sales)
+
+
 
 
 
@@ -119,9 +141,10 @@ def task3():
 
 def main():
     assignment()
-    # task1()
-    # task2()
+    task1()
+    task2()
     task3()
+    task5()
 
 
 if __name__ == "__main__": main()
