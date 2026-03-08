@@ -8,3 +8,4 @@
 
 ## assignment 2 Control Flow
 ### task 1 - Discount Rules (if/elif/else)
+### task 2 - Process Multiple order (for loop) 
