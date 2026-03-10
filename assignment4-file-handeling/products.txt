@@ -1,0 +1,4 @@
+ProductName | Price
+Apple | 12
+Mango | 23
+Grapes | 34

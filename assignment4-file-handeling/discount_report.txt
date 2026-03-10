@@ -1,0 +1,6 @@
+Product | Original price | Discount price
+Mouse | 500 | 450.0
+Keyboard | 800 | 720.0
+Moniter | 7000 | 6300.0
+Pendrive | 400 | 360.0
+Camera | 5000 | 4500.0
