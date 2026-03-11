@@ -1,17 +1,20 @@
 # genai-python 
 
+---
 ## assignemnt 1 data structure
 ### task 1 - Product Collection (List and Tuple)
 ### task 2 - Categories -- (Sets)
 ### task 3 - Product Pricing -- (Dictionaries)
 ### task 4 - Combined Operation
 
+---
 ## assignment 2 Control Flow
 ### task 1 - Discount Rules (if/elif/else)
 ### task 2 - Process Multiple order (for loop) 
 ### task 3 - User Menu (while loop  - break/continue)
 ### task 5 : Loop control with conditions (break and continue)
 
+---
 ## Assignment 3 - Functions Assignment
 ### task 1 - Basic Function Price after discount
 ### task 2 - Recursion function factorial unit
@@ -21,6 +24,7 @@
 ### task 6 - Combined Utility function
 ### task 7 - Mini problem Menu using function
 
+---
 ## Assignement 4 - File Handling
 ### task 1 - Write sales record to a file
 ### task 2 - Read File in Different ways
@@ -30,12 +34,14 @@
 ### task 6 - Read file safely 
 ### task 7 - Mini Project : Export discount price
 
+---
 ## Assignment 5 - Modules & Packages
 ### task 1 - Create a simple module math_util.py
 ### task 2 - Create another model string_util.py
 ### task 3 - Create sample package shop_package
 ### task 4 - Import the package in main.py
 
+---
 ## Assignment 6 - Exception Handeling
 ### task 1 - Safe devision utility
 ### task 2 - Bill calculator with error handeling
