@@ -58,3 +58,10 @@
 ### task 5 - Abstract Base Classes
 ### task 6 - Magic Methods and Operator Overloading
 ### task 7 - Mini project : Store Inventory Management System
+
+---
+## Assignment 8 - Streamlit --
+### Task 1 - Basic Streamlit app --
+### Task 2 - Discount Calculator --
+### Task 3 - Product Form --
+### Task 4 - Sales Dashboard --
